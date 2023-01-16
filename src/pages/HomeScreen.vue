@@ -94,7 +94,7 @@
 </template>
 
 <script setup>
-import { onMounted, onUpdated, ref } from "@vue/runtime-core";
+import { onMounted, onUpdated, ref } from "vue";
 import numeral from "numeral";
 import { getCoin } from "../helpers/fetchAssets";
 import { socketPrice } from "../helpers/socketPrice";
